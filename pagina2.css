@@ -1,3 +1,47 @@
-*{
-    background-color: aqua;
+
+
+
+
+h1{
+    font-family: 'Times New Roman';
+    color: green;
+    text-align: center;
+    font-size: 55px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+P{
+    text-align: center;
+}
+.container img{
+    height: 400PX;
+}
+
+.sabor{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.laranja{
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.goiaba{
+        border: 2px solid green;
+    padding: 10px;
+}
+
+.uva{
+      border: 2px solid green;
+    padding: 10px;
 }
