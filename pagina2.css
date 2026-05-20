@@ -107,7 +107,7 @@ font-size: 20px;
 .fim  button:hover{
       border: 2px solid rgb(0, 0, 0);
 border-radius: 10px;
-background-color: rgba(168, 102, 26, 0.664);
+background-color: rgb(211, 115, 5);
 padding: 10px;
 color: rgb(255, 255, 255);
 margin-left: 1000px;
