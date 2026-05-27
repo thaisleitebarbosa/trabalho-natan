@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background:rgb(22, 102, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Caixa principal */
+.sucos {
+    width: 420px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    border-top: 6px solid #ff7b00;
+}
+
+/* Título */
+.sucos h2 {
+    text-align: center;
+    color: #ff7b00;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+/* Texto */
+.penny {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+/* Espaço entre os campos */
+.juice div {
+    margin-bottom: 18px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #222;
+    font-size: 14px;
+}
+
+/* Campos */
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background-color: #fafafa;
+    font-size: 14px;
+}
+
+/* Clique nos campos */
+input:focus,
+textarea:focus {
+    border: 1px solid #ff7b00;
+    background-color: #fff;
+}
+
+/* Área de mensagem */
+textarea {
+    height: 110px;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #ff7b00;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Hover */
+button:hover {
+    background-color: #d96600;
+}

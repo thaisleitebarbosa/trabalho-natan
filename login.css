@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-background:rgb(47, 107, 47);
+background:rgb(28, 138, 46);
 
 
         }
@@ -24,8 +24,9 @@ background:rgb(47, 107, 47);
   width: 900px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   height: 500px;
+  text-align: center;
 }
-
+span{color: blue;}
 /* Título */
 h2 {
   text-align: center;
