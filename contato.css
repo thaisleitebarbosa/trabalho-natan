@@ -6,26 +6,28 @@
 }
 
 body {
-    background:rgb(22, 102, 35);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background:rgb(255, 255, 255);
+
+   
+   
     min-height: 100vh;
 }
 
 /* Caixa principal */
 .sucos {
     width: 420px;
-    background-color: #ffffff;
+    background-color: rgb(17, 104, 17);
     padding: 30px;
     border-radius: 12px;
     border-top: 6px solid #ff7b00;
+    margin-left: 420px;
+    margin-top: 100px;
 }
 
 /* Título */
 .sucos h2 {
     text-align: center;
-    color: #ff7b00;
+    color: #ffffff;
     margin-bottom: 10px;
     font-size: 28px;
 }
@@ -33,7 +35,7 @@ body {
 /* Texto */
 .penny {
     text-align: center;
-    color: #666;
+    color: #ffffff;
     margin-bottom: 25px;
     font-size: 14px;
 }
@@ -47,7 +49,7 @@ body {
 label {
     display: block;
     margin-bottom: 6px;
-    color: #222;
+    color: #ffffff;
     font-size: 14px;
 }
 
@@ -88,4 +90,44 @@ button {
 /* Hover */
 button:hover {
     background-color: #d96600;
+}
+
+.menu .logo{
+    width: 80px;
+    background-color: white;
+    border-radius: 200px;
+}
+.menu{
+    background-color: rgb(28, 138, 46);
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+  
+}
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Times New Roman';
+   display: flex;
+   align-items: center;
+
+}
+.menu a:hover{
+color: rgb(255, 123, 0);
+font-size: 21px;
+
+}
+
+.menu .cestinha{
+    width: 25px;
+}
+
+.button{
+border: 2px solid green;
+border-radius: 20px;
+background-color: rgb(17, 104, 17);
+padding: 15px;
 }
